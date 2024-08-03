@@ -1,17 +1,10 @@
 .header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
     /* bottom: 0; */
     height: 52px;
     background-color: rgb(231, 231, 122);
     /* add s-index after adding slider to see the difference*/
     z-index: 100;
     box-shadow: 0px 0px 50px gainsboro; 
-  }
-  .peta{
-    margin-top: 100px;
   }
   .header-icon {
     width: 35px;
@@ -23,7 +16,7 @@
     position: absolute;
     left: 20px;
     padding: 0;
-    margin: 14px 30px 0px;
+    margin: 6px 30px 0px;
     color: rgb(237, 75, 75);
   }
   nav {
@@ -132,5 +125,24 @@
   }
   .koti{
     text-align: center;
-    
+    font-family:cursive;
+  }
+  .mp{
+    margin-top: -420px;
+  padding: 450px;
+  }
+  .gg{
+    font-family: Georgia, 'Times New Roman', Times, serifx  ;
+  }
+  .pjj{
+    font-family: monospace;
+    text-align: center;
+    margin-top: -380px;
+  }
+  .ketua{
+    margin-left: 40px;
+    width: 400,5px;
+    height: 367px;
+    border-radius: 50px;
+    padding: 20px;
   }
