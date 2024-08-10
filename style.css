@@ -1,148 +1,284 @@
 .header {
-    /* bottom: 0; */
-    height: 52px;
-    background-color: rgb(231, 231, 122);
-    /* add s-index after adding slider to see the difference*/
-    z-index: 100;
-    box-shadow: 0px 0px 50px gainsboro; 
-  }
-  .header-icon {
-    width: 35px;
-    margin: 8px 15px;
-    position: absolute;
-  }
-  .title {
-    text-align: left;
-    position: absolute;
-    left: 20px;
-    padding: 0;
-    margin: 6px 30px 0px;
-    color: rgb(237, 75, 75);
-  }
-  nav {
-    position: absolute;
-    right: 0;
-    margin: 14px 30px 0px;
-  }
-.aaaa{
-    display: middle;
-    margin-top: auto;
+  /* bottom: 0; */
+  height: 52px;
+  background-color: rgb(231, 231, 122);
+  /* add s-index after adding slider to see the difference*/
+  z-index: 100;
+  box-shadow: 0px 0px 50px gainsboro;
+}
+.header-icon {
+  width: 35px;
+  margin: 8px 15px;
+  position: absolute;
+}
+.title {
+  text-align: left;
+  position: absolute;
+  left: 20px;
+  padding: 0;
+  margin: 6px 30px 0px;
+  color: rgb(237, 75, 75);
+}
+nav {
+  position: absolute;
+  right: 0;
+  margin: 14px 30px 0px;
+}
+.aaaa {
+  display: middle;
+  margin-top: auto;
 }
 .project-detail {
-    margin: 50px 30px 100px;
-    padding: 20px;
-    border-radius: 5px;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 2px 2px 5px grey;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-  }
-  .project-img {
-    margin: 5px;
-  }
-  .project-img img {
-    width: 350px;
-    height: auto;
-    border-radius: 5px;
-  }
-  .project-description {
-    margin: 5px;
-  }
-  .project-description h3 {
-    margin: 0 5px 5px;
-    padding: 0;
-    font-size: 23px;
-  }
-  .po{
-    color: rgb(155, 155, 110);
-    text-align: center;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  }
-  footer {
-    background-color: rgb(231, 231, 122);
-  }
-  .center-footer {
-    margin: 0 20px;
-  }
-  .main-footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    /* padding: 0 20px; */
-  }
-  
-  .left-footer {
-    margin: 0 auto 0 40px;
-  }
-  
-  .right-footer {
-    margin: 0 40px 0 auto;
-  }
-  
-  .info-left {
-    text-align: left;
-    width: 100%;
-    color: rgb(224, 251, 252);
-  }
-  
-  .info-right {
-    text-align: right;
-    width: 100%;
-    color: rgb(224, 251, 252);
-  }
-  
-  .info-top {
-    text-align: center;
-    width: 100%;
-    padding-top: 5px;
-    /* border-top: 1px solid white; */
-    color: rgb(80, 103, 104);
-  }
-  
-  .info-center {
-    text-align: center;
-    width: 100%;
-    padding-top: 5px;
-  
-    border-top: 1px solid white;
-    color: rgb(27, 37, 38);
-  }
-  
-  .social-media {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .fa-instagram-square,
-  .fa-twitter-square,
-  .fa-whatsapp-square,
-  .fa-envelope {
-    padding: 5px;
-    font-size: 30px;
-    color: white;
-  }
-  .koti{
-    text-align: center;
-    font-family:cursive;
-  }
-  .mp{
-    margin-top: -420px;
-  padding: 450px;
-  }
-  .gg{
-    font-family: Georgia, 'Times New Roman', Times, serifx  ;
-  }
-  .pjj{
-    font-family: monospace;
-    text-align: center;
-    margin-top: -380px;
-  }
-  .ketua{
-    margin-left: 40px;
-    width: 400,5px;
-    height: 367px;
-    border-radius: 50px;
-    padding: 20px;
-  }
+  margin: 50px 30px 100px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 2px 2px 5px grey;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.project-img {
+  margin: 5px;
+}
+.project-img img {
+  width: 350px;
+  height: auto;
+  border-radius: 5px;
+}
+.project-description {
+  margin: 5px;
+}
+.project-description h3 {
+  margin: 0 5px 5px;
+  padding: 0;
+  font-size: 23px;
+}
+.po {
+  color: rgb(155, 155, 110);
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+footer {
+  background-color: rgb(231, 231, 122);
+}
+.center-footer {
+  margin: 0 20px;
+}
+.main-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  /* padding: 0 20px; */
+}
+
+.left-footer {
+  margin: 0 auto 0 40px;
+}
+
+.right-footer {
+  margin: 0 40px 0 auto;
+}
+
+.info-left {
+  text-align: left;
+  width: 100%;
+  color: rgb(224, 251, 252);
+}
+
+.info-right {
+  text-align: right;
+  width: 100%;
+  color: rgb(224, 251, 252);
+}
+
+.info-top {
+  text-align: center;
+  width: 100%;
+  padding-top: 5px;
+  /* border-top: 1px solid white; */
+  color: rgb(80, 103, 104);
+}
+
+.info-center {
+  text-align: center;
+  width: 100%;
+  padding-top: 5px;
+
+  border-top: 1px solid white;
+  color: rgb(27, 37, 38);
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+}
+
+.fa-instagram-square,
+.fa-twitter-square,
+.fa-whatsapp-square,
+.fa-envelope {
+  padding: 5px;
+  font-size: 30px;
+  color: white;
+}
+.koti {
+  text-align: center;
+  font-family: cursive;
+}
+
+.gg {
+  font-family: Georgia, "Times New Roman", Times, serifx;
+}
+.pjj {
+  font-family: monospace;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.ketua {
+  margin-left: 40px;
+  width: 400, 5px;
+  height: 367px;
+  border-radius: 50px;
+  padding: 20px;
+}
+.mybox {
+  background-color: #ff6ffa; /* Warna latar belakang */
+  border: 3px solid #ccc; /* Garis tepi */
+  padding: 220px; /* Jarak antara konten dan tepi */
+  margin: 70px; /* Jarak antara kotak dengan elemen lain */
+  border-radius: 50px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.mybox img {
+  position: absolute; /* Memposisikan gambar secara absolut */
+  top: 120px; /* Menggeser gambar ke atas */
+  left: 1000px; /* Menggeser gambar ke kiri */
+  width: 570;
+  height: 770;
+}
+.eeee {
+  border-radius: 50px;
+  width: 216px;
+  height: 269px;
+  margin-left: 10px;
+  left: 90px;
+}
+.t {
+  text-align: left;
+}
+.box {
+  background-color: #742672; /* Warna latar belakang */
+  border: 3px solid #df9f9f; /* Garis tepi */
+  padding: 60px; /* Jarak antara konten dan tepi */
+  margin: 20px; /* Jarak antara kotak dengan elemen lain */
+  border-radius: 50px;
+}
+.container-maps {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+}
+.shooo {
+  position:absolute;
+  top: 1000px;
+  left: -10px;
+  height: 593px;
+  width: auto;
+}
+.ronald{
+  width: 502px;
+  height: 340px;
+  border-radius: 50px;
+  position: relative;
+  left: 380px;
+}
+.t{
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center  ;
+}
+.form-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.form-label {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+.form-input {
+  position: relative;
+  width: 100%;
+  border-bottom: 1px solid grey;
+  outline: none;
+  height: 48px;
+  margin-bottom: 15px;
+  padding: 0;
+}
+.input-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-style: none;
+  outline: none;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+  height: 100%;
+}
+
+.textarea-container {
+  display: flex;
+  justify-content: center;
+}
+.form-textarea {
+  position: relative;
+}
+.textarea {
+  border-style: none;
+  border-bottom: 1px solid grey;
+  outline: none;
+  margin-top: 10px;
+}
+
+.submit {
+  border-style: none;
+  border-radius: 25px;
+  color: rgb(255, 245, 136);
+  background-color: rgb(38, 70, 83);
+  margin: 5px;
+  cursor: pointer;
+}
+
+.input-item:focus + .form-label {
+  top: -5px;
+  left: -2px;
+  font-size: 10px;
+}
+.textarea:focus + .form-label {
+  top: -5px;
+  left: -2px;
+  font-size: 10px;
+}
+
+.input-item:not(:placeholder-shown).input- item:not(:focus) + .form-label {
+  top: -2px;
+  left: -2px;
+  font-size: 10px;
+  color: rgb(138, 130, 130);
+}
