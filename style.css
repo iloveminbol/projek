@@ -282,3 +282,21 @@ footer {
   font-size: 10px;
   color: rgb(138, 130, 130);
 }
+.dbb{
+  border-radius: 25px;
+  position: absolute;
+  top: 100px;
+  left: 400px;
+}
+.wke{
+ position: absolute;
+ top: 500px;
+ left: 630px;
+ font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.batv{
+  position: absolute;
+  top: 570px;
+  left: 235px;
+  text-align: center;
+}
